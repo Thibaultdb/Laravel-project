@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>G.I.Ware</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -99,6 +99,7 @@
 
                 <div class="links">
                     <a href="/contact">Contact</a>
+                    <a href="/about">About</a>
                     <a href="/">Register</a>
                     <a href="/">Sign In</a>
                     
