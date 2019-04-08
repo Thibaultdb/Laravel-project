@@ -18,6 +18,13 @@
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
+                
+            }
+            ::-moz-selection { 
+                background: yellow;
+            }
+            ::selection { 
+                background: yellow;
             }
 
             .full-height {
@@ -58,6 +65,12 @@
                 text-transform: uppercase;
             }
 
+            .links > a:hover {
+                color: lightgrey;
+                transition: 0.4s;
+                cursor: crosshair;
+            }
+
             .m-b-md {
                 margin-bottom: 30px;
             }
@@ -81,17 +94,18 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    G.I.Ware
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="/contact">Contact</a>
+                    <a href="/">Register</a>
+                    <a href="/">Sign In</a>
+                    
+                </div>
+                <div class="links" style="margin-top: 15px;">
+                    <a href="https://laracasts.com" target="_blank" style="color: lightgrey;">Laracasts</a>
+                    <a href="https://github.com/Thibaultdb/Laravel-project" target="_blank" style="color: lightgrey;">GitHub</a>
                 </div>
             </div>
         </div>
