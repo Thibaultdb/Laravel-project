@@ -59,7 +59,7 @@
                         <span class="nav-link"><a href="/contact">Contact</a></span>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link"><a href="">Home</a></span>
+                        <span class="nav-link"><a href="/projects">Projects</a></span>
                     </li>
                 </ul>
                 <form class="form-inline md-form form-sm active-cyan active-cyan-2 mr-3">
